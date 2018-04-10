@@ -1,7 +1,43 @@
-body{
-    background: greenyellow;
+nav a {
+    font-size: 14px;
+    font-family: "Myriad Pro";
+    color: #03a9f4
 }
-.lorem{
-    font-size: 18px;
+??? {
+    font-size: 14px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+}
+  
 
+body {
+    background: rgb(253, 253, 253);
+}
+
+.lifestyle {
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+}
+.photodiary {
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(180, 173, 158);
+    
+}
+.titleh2 {
+    font-size: 30px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+}
+p.Lor {
+    font-size: 14px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
+   
+}
+.button {
+    font-size: 20px;
+    font-family: "PlayfairDisplay";
+    color: rgb(98, 98, 98);
 }
