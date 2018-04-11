@@ -1,49 +1,94 @@
-main {
-    margin: 0, auto;
-    text-justify: auto;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Ubuntu');
+
+
+
+main, header {
+    margin: 0 auto;
+    width: 900px;
+    text-align: center;
+
 }
-article {
-    display: inline-block;
-    
+.navlink {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 
 .navlink ul li {
     list-style: none;
     display: inline-block;
-    font-size: 14px;
-    font-family: "Myriad Pro";
+    font-family: "Playfair Display, serif";
+    text-transform: uppercase;
+    font-weight: 100px;
     text-align: center;
-    margin-left: 56px;
-
-.lifestyle {
+    margin-left: 150px;
     font-size: 14px;
-    font-family: "Ubuntu";
-    color: rgb(180, 173, 158);
-}
-.photodiary, .lifestyle {
-    font-size: 14px;
-    font-family: "Ubuntu";
-    color: rgb(180, 173, 158);
     
+}
+
+.navlink ul li a {
+    text-decoration: none;
+    color: rgb(180, 173, 158);
+    margin-left: -56px;
+
+}
+.navlink ul li a:hover {
+    color: #03a9f4
+}
+.navlink ul li a:active {
+    color: #f41303
+}
+
+.first {
+    margin: 50px;
+}
+.second {
+    margin: 50px;
+}
+.third {
+    margin: 50px;
+}
+.fourth {
+    margin: 50px;
+}
+article {
+    width: 420px;
+    display: inline-block;
+    text-align: left;
+
+}
+.secpicinblock {
+    margin-left: 56px;
 }
 .titleh2 {
     font-size: 30px;
-    font-family: "PlayfairDisplay";
+    font-family: "PlayfairDisplay, serif";
+    margin-bottom: 40px;
     color: rgb(98, 98, 98);
-}
-p.Lor {
-    font-size: 14px;
-    font-family: "PlayfairDisplay";
+}    
+
+.Lor {
+    font-size: 16px;
+    font-family: "PlayfairDisplay, serif";
     color: rgb(98, 98, 98);
    
 }
 .button {
+    text-align: center;
+    margin-top: 57px;
+    margin-bottom: 70px;
     font-size: 20px;
-    font-family: "PlayfairDisplay";
+    font-family: "PlayfairDisplay, serif";
     color: rgb(98, 98, 98);
 }
-.second {
-    margin-left: 56px;
-    text-align: center;
+.category1, .category2 {
+    font-size: 14px;
+    font-weight: 300px;
+    margin-top: 30px;
+    margin-bottom: 34px;
+    font-family: "Ubuntu, sans-serif";
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
 }
+
+  
