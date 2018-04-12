@@ -74,6 +74,7 @@ article {
    
 }
 .button {
+    display: inline-block;
     text-align: center;
     margin-top: 57px;
     margin-bottom: 70px;
